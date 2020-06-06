@@ -1,6 +1,6 @@
 ## MSI MAG Z390 TOMAHAWK + i5-9600K 
 
-### 当前版本信息：
+### 当前版本信息
 
 | 信息                                                         | 版本                   |
 | ------------------------------------------------------------ | ---------------------- |
@@ -13,7 +13,7 @@
 | [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) | 1.50                   |
 | [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3                  |
 
-### 电脑配置如下：
+### 电脑配置信息
 
 | CPU      | 型号                                  |
 | :------- | ------------------------------------- |
@@ -87,6 +87,31 @@
 现在黑苹果的安装上手难度已经非常低了，希望这个EFI文件能够帮助你尽快上手黑苹果。
 
 本EFI文件可随意使用。不出意外的话，本人将会止步在10.15版本，后续不再升级macOS新版本。
+
+#### 预览截图
+
+![](./Screenshots/Screenshot01.png)
+
+![](./Screenshots/Screenshot02.png)
+
+![](./Screenshots/Screenshot03.png)
+
+![](./Screenshots/Screenshot04.png)
+
+![](./Screenshots/Screenshot05.png)
+
+![](./Screenshots/Screenshot06.png)
+
+![](./Screenshots/Screenshot07.png)
+
+![](./Screenshots/Screenshot08.png)
+
+![](./Screenshots/Screenshot09.png)
+
+![](./Screenshots/Screenshot10.png)
+
+![](./Screenshots/Screenshot11.png)
+
 
 ### 鸣谢
 
