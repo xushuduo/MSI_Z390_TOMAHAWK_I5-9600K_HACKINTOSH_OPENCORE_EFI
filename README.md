@@ -4,18 +4,19 @@
 
 | 信息                                                         | 版本                   |
 | ------------------------------------------------------------ | ---------------------- |
-| 系统                                                         | macOS Catalina 10.15.5 |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.5.9                  |
+| 系统                                                         | macOS Catalina 10.15.6 |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.0                  |
 | 模拟机型                                                     | iMac19,1               |
-| [Lilu.kext](https://github.com/acidanthera/Lilu/releases)    | 1.4.5                  |
-| [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.4                  |
-| [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) | 1.4.0                  |
-| [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) | 1.50                   |
+| [Lilu.kext](https://github.com/acidanthera/Lilu/releases)    | 1.4.6                  |
+| [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.5                  |
+| [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) | 1.4.1                  |
+| [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) | 1.5.1                  |
 | [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3                  |
+| [CPUFriend.kext](https://github.com/acidanthera/CPUFriend)   | 1.2.1                  |
 
 ### 电脑配置信息
 
-| CPU      | 型号                                  |
+| 硬件     | 型号                                  |
 | :------- | ------------------------------------- |
 | 处理器   | Intel i5-9600K                        |
 | 主板     | MSI MAG Z390 TOMAHAWK                 |
@@ -26,13 +27,13 @@
 | 电源     | CoolerMaster V550                     |
 | 散热器   | Thermalright AS120 PLUS               |
 | 显示器   | AOC U2790VQ 27'' 4K                   |
-| 鼠标     | Logitech MX Master                    |
+| 鼠标     | Logitech MX Master 3                  |
 | 键盘     | RK ROYAL KLUDGE RG928                 |
 | 机箱     | JONSBO U4                             |
 
 ### 功能完善程度
 
-- [x] 显卡：UHD630核显 + RX598独显 双硬解，可输出4k+和HEVC解码
+- [x] 显卡：UHD630核显 + RX590独显 双硬解，可输出4k+和HEVC解码
 - [x] 声卡：Realtek ALC892 已驱动，输出输入均正常
 - [x] 网卡：Intel I219-V + Intel I211AT 已驱动
 - [x] WiFi：BCM94360CS2 免驱
@@ -87,6 +88,13 @@
 现在黑苹果的安装上手难度已经非常低了，希望这个EFI文件能够帮助你尽快上手黑苹果。
 
 本EFI文件可随意使用。不出意外的话，本人将会止步在10.15版本，后续不再升级macOS新版本。
+
+### 更新记录
+
+- 2020年08月09日
+  - 更新OpenCore 0.6.0
+  - 更新Kexts到新版本
+  - 修复USB内建定制问题
 
 #### 预览截图
 
