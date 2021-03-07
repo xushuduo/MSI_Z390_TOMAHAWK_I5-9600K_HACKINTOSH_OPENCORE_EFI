@@ -5,12 +5,12 @@
 | 信息                                                         | 版本                   |
 | ------------------------------------------------------------ | ---------------------- |
 | 系统                                                         | macOS Catalina 10.15.6 |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.5                  |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.7                  |
 | 模拟机型                                                     | iMac19,1               |
-| [Lilu.kext](https://github.com/acidanthera/Lilu/releases)    | 1.5.0                  |
-| [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.9                  |
-| [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) | 1.4.6                  |
-| [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) | 1.5.6                  |
+| [Lilu.kext](https://github.com/acidanthera/Lilu/releases)    | 1.5.1                  |
+| [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.1                  |
+| [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases) | 1.4.8                  |
+| [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) | 1.5.8                  |
 | [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5                  |
 | [CPUFriend.kext](https://github.com/acidanthera/CPUFriend)   | 1.2.3                  |
 
@@ -91,6 +91,10 @@
 
 ### 更新记录
 
+- 2021年03年08日
+  - 更新OpenCore 0.6.7
+  - 更新Kexts到新版本
+  - 修复核显UHD 630驱动
 - 2021年01月11日
   - 更新OpenCore 0.6.5，此Core应该支持macOS Big Sur 11.0.1版本，请自行尝试，如有问题，欢迎Issues
   - 更新Kexts到新版本
